@@ -1,0 +1,70 @@
+/* style.css */
+* {
+    margin: 0;
+    padding: 0;
+   
+    box-sizing: border-box; 
+}
+
+body {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+    background-color: black;
+}
+
+.container {
+    background-color: white;
+    width: 50%;
+    height: 80%; 
+    padding: 20px;
+   
+  
+}
+
+h1 {
+    color: black; 
+    text-align: center; 
+    background-color: white;
+    font-size:large;
+    font-weight: 700;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+.subcontainer{
+   background-color:rgb(229, 118, 77);
+   height: 65%;
+   width: 50%;
+   margin: auto;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+
+
+}
+.count {
+    font-size: x-large;
+    background-color:rgb(229, 118, 77);
+    padding: 10px;
+    font: 900;
+}
+.timeleft {
+    font-size: x-large;
+    background-color:rgb(229, 118, 77);
+    padding: 20px;
+    font: 900;
+}
+.add{
+    background-color: white ;
+    height: 30px;
+    width: 40px;
+   
+}
+span{
+    font-size: x-large;
+    background-color:rgb(229, 118, 77);
+    font: 900;
+}
+
